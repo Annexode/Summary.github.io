@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Hanken Grotesk;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BOX ONE STYLING */
+
+/* BOX ONE */
+.box1 {
+  display: flex;
+  flex-direction: column;
+  background: #4936f2;
+  width: 250px;
+  height: 380px;
+  border-radius: 35px;
+  z-index: 100;
+  margin-right: -30px;
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+
+.your-results {
+  color: rgba(255, 255, 255, 0.686);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.percentage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box1 .percentage {
+  /* background: hsla(256, 72%, 46%, 1); */
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 130px;
+  height: 130px;
+  border-radius: 110px;
+  margin-top: 25px;
+  align-self: center;
+}
+
+.percentage-value {
+  font-size: 50px;
+}
+
+.of100 {
+  font-size: 12px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.659);
+}
+
+/* BOX ONE PARAGRAGRAPH AND ITS TITLE */
+
+.great {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.score-description {
+  color: rgba(255, 255, 255, 0.834);
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 20px;
+  font-weight: 200;
+}
+
+/* BOX TWO STYLING */
+.box2 {
+  background: #ffffff;
+  width: 280px;
+  height: 380px;
+  box-shadow: 5px 10px 20px -0px rgba(76, 81, 231, 0.1);
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  z-index: 1;
+  padding-left: 60px;
+  padding-right: 25px;
+  padding-top: 25px;
+}
+
+.summary {
+  font-size: 18px;
+  color: rgb(15, 15, 72);
+}
+
+/* REACTION LINE  */
+.reaction {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: hsla(0, 100%, 67%, 0.078);
+  border-radius: 10px;
+  height: 40px;
+  font-size: 14px;
+}
+#reaction {
+  color: hsl(0, 100%, 67%);
+  font-weight: 500;
+}
+
+#reaction-score {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+/* MEMORY LINE */
+.memory {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: hsla(39, 100%, 56%, 0.064);
+  border-radius: 10px;
+  height: 40px;
+  font-size: 14px;
+}
+
+#memory {
+  color: hsl(39, 100%, 56%);
+  font-weight: 500;
+}
+
+#memory-score {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+/* VERBAL LINE */
+.verbal {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: hsla(166, 100%, 37%, 0.066);
+  border-radius: 10px;
+  height: 40px;
+  font-size: 14px;
+}
+
+#verbal {
+  color: hsl(166, 100%, 37%);
+  font-weight: 500;
+}
+
+#verbal-score {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+/* VISUAL LINE */
+.visual {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: hsla(234, 85%, 45%, 0.051);
+  border-radius: 10px;
+  height: 40px;
+  font-size: 14px;
+}
+
+#visual {
+  color: hsl(234, 85%, 45%);
+  font-weight: 500;
+}
+
+#visual-score {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+span {
+  color: rgba(30, 27, 27, 0.442);
+  font-weight: 900;
+}
+
+/* CONTINUE BUTTON */
+
+.continue-btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.continue-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+  background: hsl(224, 30%, 27%);
+  height: 40px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+/* HOOVERS/ TRANSITIONS */
+.continue-btn a:hover {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.continue-btn:hover {
+  background: hsl(224, 30%, 27%);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid darkorange;
+}
